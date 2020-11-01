@@ -110,9 +110,8 @@ dialogs:
         text: 未能导入你的存档：
     confirmSavegameDelete:
         title: 确认删除
-        text: Are you sure you want to delete the following game?<br><br>
-            '<savegameName>' at level <savegameLevel><br><br> This can not be
-            undone!
+        text: Are you sure you want to delete the following game?你确定要删除这个存档吗？<br><br>
+            '<savegameName>'目前为<savegameLevel>级<br><br> 该操作不可撤销！
     savegameDeletionError:
         title: 删除错误
         text: 未能删除你的存档
@@ -154,8 +153,7 @@ dialogs:
             class='keybinding'>ALT</code>: 反向放置传送带。<br>"
     createMarker:
         title: 创建地图标记
-        desc: Give it a meaningful name, you can also include a <strong>short
-            key</strong> of a shape (Which you can generate <link>here</link>)
+        desc: 起一个有意义的名称，你也可以使用图形的<strong>代码</strong>（你可以在<link>这里</link>生成图形的代码）
         titleEdit: 编辑地图标记
     markerDemoLimit:
         desc: 在试玩版中你只能创建两个地图标记。请获取独立版以创建更多标记。
@@ -177,13 +175,11 @@ dialogs:
         title: 重命名存档
         desc: 您可以在此重命名存档。
     tutorialVideoAvailable:
-        title: Tutorial Available
-        desc: There is a tutorial video available for this level! Would you like to
-            watch it?
+        title: 教程可用
+        desc: 这一关有一段教程视频！你想要观看它吗？
     tutorialVideoAvailableForeignLanguage:
-        title: Tutorial Available
-        desc: There is a tutorial video available for this level, but it is only
-            available in English. Would you like to watch it?
+        title: 教程可用
+        desc: 这一关有一段教程视频，但它只有英文版的。你想要观看它吗？
 ingame:
     keybindingsOverlay:
         moveMap: 移动地图
@@ -224,7 +220,7 @@ ingame:
     notifications:
         newUpgrade: 有新更新啦！
         gameSaved: 游戏已保存。
-        freeplayLevelComplete: Level <level> has been completed!
+        freeplayLevelComplete: 第<level>关已完成！
     shop:
         title: 建筑升级
         buttonUnlock: 升级
@@ -270,19 +266,14 @@ ingame:
             1_2_conveyor: 用<strong>传送带</strong>将你的开采机连接到基地上！<br><br>提示：用你的鼠标<strong>按下并拖动</strong>传送带！
             1_3_expand: 这<strong>不是</strong>一个挂机游戏！建造更多的开采机和传送带来更快地完成目标。<br><br> 提示：按住
                 <strong>SHIFT</strong> 键来放置多个开采机，用 <strong>R</strong> 键旋转它们。
-            2_1_place_cutter: "Now place a <strong>Cutter</strong> to cut the circles in two
-                halves!<br><br> PS: The cutter always cuts from <strong>top to
-                bottom</strong> regardless of its orientation."
-            2_2_place_trash: The cutter can <strong>clog and stall</strong>!<br><br> Use a
-                <strong>trash</strong> to get rid of the currently (!) not
-                needed waste.
-            2_3_more_cutters: "Good job! Now place <strong>2 more cutters</strong> to speed
-                up this slow process!<br><br> PS: Use the <strong>0-9
-                hotkeys</strong> to access buildings faster!"
-            3_1_rectangles: "Now let's extract some rectangles! <strong>Build 4
-                extractors</strong> and connect them to the hub.<br><br> PS:
-                Hold <strong>SHIFT</strong> while dragging a belt to activate
-                the belt planner!"
+            2_1_place_cutter: "现在来放一个<strong>剪切器</strong>来把圆形切成两半！<br><br> 
+                PS: 剪切器永远把图形从上向下切，与剪切器的朝向无关。"
+            2_2_place_trash: 剪切器会<strong>堵塞并停止工作</strong>！<br><br>使用
+                <strong>垃圾桶</strong>把当前（！）不需要的垃圾扔掉。
+            2_3_more_cutters: "做的不错！现在<strong>再放两个剪切器</strong>来加速这个缓慢的进程！
+                <br><br> PS: 使用<strong>快捷键0-9</strong>来更快地使用建筑！"
+            3_1_rectangles: "现在来开采一些矩形！<strong>建造4个开采器</strong>并把它们连到基地。<br><br> 
+                PS: 在建造传送带时按住<strong>SHIFT</strong>来启用传送带规划！
             21_1_place_quad_painter: Place the <strong>quad painter</strong> and get some
                 <strong>circles</strong>, <strong>white</strong> and
                 <strong>red</strong> color!
